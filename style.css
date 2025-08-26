@@ -1,8 +1,117 @@
 .site{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 80px;
+  /* display: flex;
+  align-items:center;
+  justify-content: space-between; */
+  padding: 0px;
   background: linear-gradient(135deg, #000428, #004e92);
   color: #fff;
+  margin:0;
+  padding: 0%;
+  box-sizing: border-box;
 }
+.logo{
+text-decoration:none;
+  color: white;
+  font-size:1rem;
+    display:flex;
+  list-style: none;
+  gap:2px;
+  justify-self: start;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;}
+
+.nav-links {
+  display:flex;
+  list-style: none;
+  gap:20px;
+}
+.nav-bar a{
+  text-decoration:none;
+  color: white;
+  font-size:1rem;
+}
+
+.link{
+  text-decoration:none;
+  color: white;
+  font-size:1rem;
+    display:flex;
+  list-style: none;
+  gap:20px;}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+.buttons {
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+    margin-right: 10px}
+
+.oa button {
+  background: #2563eb;
+  color: white;
+}
+
+.cta button{
+  background: white;
+  color: #2563eb;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta button:first-child {
+  background-color: #007bff;
+  color: white;
+  margin-right: 1rem;
+}
+
+.cta button:last-child {
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.stats {
+  display: flex;
+  justify-content:start;
+  gap: 3rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+
+.img {
+  width: 250px;
+  max-width: 700%;
+  filter: drop-shadow(0 0 20px rgba(0,0,0,0.3));
+}
+
+
