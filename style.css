@@ -1,0 +1,8 @@
+.site{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #fff;
+}
