@@ -1,11 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .site{
-  /* display: flex;
-  align-items:center;
   justify-content: space-between; */
   padding: 0px;
   background: linear-gradient(135deg, #000428, #004e92);
   color:white;
-  margin:0;
+  margin:20px;
   padding:0%;
   box-sizing: border-box;
   border: 15% #ccc;
@@ -40,11 +44,33 @@ justify-self: start;
 
 .link{
   text-decoration:none;
-  color: white;
   font-size:1rem;
   display:flex;
   list-style: none;
-  gap:40px;}
+  gap:40px;
+display: flex;
+align-items: center;}
+
+.one{
+  background:transparent;
+  color:  rgb(24, 23, 23);
+  border: white solid;
+  padding: 10px;
+  border-radius: 5px;
+  } 
+   .two{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color:black !important;
+   }
+
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 20px 50px;
+  }
 
 .content {
   max-width: 50%;
@@ -104,12 +130,14 @@ justify-self: start;
 
 }
 
-.img {
+.imgs{
+  display: flex;
+  margin-top: 50px;
   width: 300px;
   max-width: 400%;
-  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
-  justify-content: end;
-  align-items: end;
+  justify-content:right;
+  align-items:right;
+
 }
 
 
