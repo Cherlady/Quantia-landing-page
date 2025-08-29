@@ -5,8 +5,7 @@
 }
 
 .site{
-  justify-content: space-between; */
-  padding: 0px;
+  justify-content: space-between;
   background: linear-gradient(135deg, #000428, #004e92);
   color:white;
   margin:20px;
@@ -24,6 +23,7 @@ list-style: none;
 gap:2px;
 justify-self: start;
 }
+
 
 .nav-bar{
   display: flex;
@@ -70,6 +70,7 @@ align-items: center;}
     align-items: center;
     justify-content: space-between;
   padding: 20px 50px;
+  flex-wrap: wrap;
   }
 
 .content {
@@ -86,13 +87,15 @@ align-items: center;}
 }
 
 .buttons {
-  display: inline-block;
+  display: flex;
   padding: 15px 10px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 1.5rem;
   margin-right: 10px;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 15px;
   }
 
 .buttons a.first-button {
@@ -134,11 +137,19 @@ align-items: center;}
   display: flex;
   margin-top: 50px;
   width: 300px;
+  height: 300px;
   max-width: 400%;
   justify-content:right;
   align-items:right;
+  gap: 50% ;
 
 }
 
+@media (max-width:768px) { 
+  .nav-bar{
+    display:none;
+  }
 
+  
+}
 
