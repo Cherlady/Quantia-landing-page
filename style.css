@@ -12,6 +12,7 @@
   padding:0%;
   box-sizing: border-box;
   border: 15% #ccc;
+  font-family:"inter",sans-serif;
 
 }
 .logo{
@@ -66,15 +67,22 @@ align-items: center;}
    }
 
   .hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
   padding: 20px 50px;
   flex-wrap: wrap;
   }
+  .left-hero{
+    flex: 1;
+    max-width: 700px;
+  }
+  .right-hero{
+    flex: 1;
+  }
 
 .content {
-  max-width: 50%;
+  max-width: 600px;
 }
 .content h1{
   font-size: 3rem;
@@ -134,14 +142,15 @@ align-items: center;}
 }
 
 .imgs{
-  display: flex;
-  margin-top: 50px;
-  width: 300px;
+  /* display: flex;
+  justify-content:right;
+  align-items:right; */
+   /* margin-top: 50px; 
+   width: 300px;
   height: 300px;
   max-width: 400%;
-  justify-content:right;
-  align-items:right;
-  gap: 50% ;
+  gap: 50% ; */ 
+  
 
 }
 
